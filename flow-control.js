@@ -18,7 +18,8 @@ function teenager(age) {
 }
 
 function ageChecker(age) {
-  return (> 12 || < 20)
+  var age
+  return (age > 12 || < 20)
   console.log("You are a teenager!")
 }
 else if (age < 12) {
@@ -30,7 +31,8 @@ else if (age < 12) {
 }
 
 function ternaryTeenager(age) {
-return if > 12 || < 19 ? "You are a teenager" : "You are not a teenager"
+  var age
+return if age > 12 || < 19 ? "You are a teenager" : "You are not a teenager"
     }
 }
 
